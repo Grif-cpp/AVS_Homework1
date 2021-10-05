@@ -1,0 +1,10 @@
+Filled Container:
+Container contains 8 elements.
+0: Film name: nvnbrbxdhocodjejyzo  Date of film: 1928  It's Documental film: length of film in minutes = 105
+1: Film name: h  Date of film: 2001  It is Gaming film: producer = uqj
+2: Film name: dxeaxws  Date of film: 1999  It's Documental film: length of film in minutes = 149
+3: Film name: aahgasdscvznitgkcr  Date of film: 1955  It's Documental film: length of film in minutes = 89
+4: Film name: qxpsxgrgtdgoqnr  Date of film: 1984  It's Documental film: length of film in minutes = 71
+5: Film name: tikysrihyrsio  Date of film: 2020  It's Documental film: length of film in minutes = 116
+6: Film name: nqkyxo  Date of film: 2013  It's Documental film: length of film in minutes = 139
+7: Film name: ejlpmawesqqpvwiycpuv  Date of film: 2000  It's Documental film: length of film in minutes = 43
