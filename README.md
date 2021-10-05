@@ -5,3 +5,4 @@
 g++ -c Cartoon.cpp Gaming.cpp Documental.cpp Film.cpp Container.cpp main.cpp
 g++ Cartoon.o Gaming.o Documental.o Film.o Container.o main.o -o hw1
 .\hw1 -f test05.txt Out.txt Out1.txt 
+Описание ввода в файле Description
