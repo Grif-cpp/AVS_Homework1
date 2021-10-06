@@ -6,3 +6,11 @@ g++ -c Cartoon.cpp Gaming.cpp Documental.cpp Film.cpp Container.cpp main.cpp
 g++ Cartoon.o Gaming.o Documental.o Film.o Container.o main.o -o hw1                                    
 .\hw1 -f test05.txt Out.txt Out1.txt                                                      
 Описание ввода в файле Description
+
+время ыполнения программы на каждом тесте 0.001-0.015 сек, замерял время так:
+#include<time.h>
+clock_t start = clock();
+// программа
+clock_t end = clock();
+double seconds = (double)(end - start) / CLOCKS_PER_SEC;
+cout << seconds;
