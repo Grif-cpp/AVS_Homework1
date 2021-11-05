@@ -33,16 +33,31 @@ Film *InRnd() {
         fi = new Film;
         fi->k = Film::GAMING;
         InRnd(fi->g);
+        fi->name_length = rand() % 28 + 1;
+        for (int i = 0; i < fi->name_length; i++) {
+            fi->name[i] = (rand() % 26) + 'a';
+        }
+        fi->date = rand() % 120 + 1900;
         return fi;
     case 2:
         fi = new Film;
         fi->k = Film::CARTOON;
         InRnd(fi->c);
+        fi->name_length = rand() % 28 + 1;
+        for (int i = 0; i < fi->name_length; i++) {
+            fi->name[i] = (rand() % 26) + 'a';
+        }
+        fi->date = rand() % 120 + 1900;
         return fi;
     case 3:
         fi = new Film;
         fi->k = Film::DOCUMENTAL;
         InRnd(fi->d);
+        fi->name_length = rand() % 28 + 1;
+        for (int i = 0; i < fi->name_length; i++) {
+            fi->name[i] = (rand() % 26) + 'a';
+        }
+        fi->date = rand() % 120 + 1900;
         return fi;
     default:
         return 0;
@@ -51,8 +66,11 @@ Film *InRnd() {
 
 // Вывод фильма
 void Out(Film& f, ofstream& ofst) {
-    ofst << "Film name: " << f.name
-        << "  Date of film: " << f.date
+    ofst << "Film name: ";
+    for (int i = 0; i < f.name_length; i++) {
+        ofst << f.name[i];
+    }
+    ofst << "  Date of film: " << f.date
         << "  ";
     switch (f.k) {
     case Film::GAMING:
